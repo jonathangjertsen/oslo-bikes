@@ -16,3 +16,4 @@ Følgende verktøy finnes:
 * `csv_to_pandas.py`: funksjoner for å konvertere fra CSV-filer generert med ovennevnte scripts til
 pandas DataFrames
     * Det kreves at `pandas` er installert, typisk via en Anaconda-distribusjon
+* `bikes.ipynb` er en Jupyter Notebook jeg bruker til å kikke på dataene.
