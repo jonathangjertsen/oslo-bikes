@@ -13,3 +13,6 @@ Følgende verktøy finnes:
     * Det tas ikke høyde for at stasjoner kan endres.
     * Filnavn og client-identifier blir etterspurt ved oppstart.
     * Det kreves at `requests` er installert (kjør `pip install -r requirements.txt`)
+* `csv_to_pandas.py`: funksjoner for å konvertere fra CSV-filer generert med ovennevnte scripts til
+pandas DataFrames
+    * Det kreves at `pandas` er installert, typisk via en Anaconda-distribusjon
