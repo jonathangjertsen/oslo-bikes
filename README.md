@@ -13,11 +13,14 @@ Følgende verktøy finnes:
     * Det tas ikke høyde for at stasjoner kan endres.
     * Filnavn og client-identifier blir etterspurt ved oppstart.
     * Det kreves at `requests` er installert (kjør `pip install -r requirements.txt`)
-* `csv_to_pandas.py`: funksjoner for å konvertere fra CSV-filer generert med ovennevnte scripts til
-pandas DataFrames
-    * Det kreves at `pandas` er installert, typisk via en Anaconda-distribusjon
+* `bike_analysis.py`: funksjoner for å konvertere fra CSV-filer generert med ovennevnte scripts til
+pandas DataFrames og for å behandle disse.
+    * Det kreves at `pandas`, `geopandas` og `numpy` er installert, typisk via en Anaconda-distribusjon
 * `bikes.ipynb` er en Jupyter Notebook jeg bruker til å kikke på dataene.
+    * Det kreves at `matplotlib` er installert i tillegg til alt fra bike_analysis
+    * Det kreves også at shapefiles for Oslo har blitt lastet ned fra
+[BBBike](https://download.bbbike.org/osm/bbbike/Oslo/) til en mappe som heter "oslo-shapefile"
 
-Demo av plotting (kode kommer etter hvert):
+Demo av plotting fra `bikes.ipynb`:
 
 ![Animasjon av bysyklenes tilgjengelighet](https://raw.githubusercontent.com/jonathangjertsen/oslo-bikes/master/demo.gif)

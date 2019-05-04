@@ -1,6 +1,5 @@
 from typing import Any, Dict, List, Tuple
 
-import array
 import geopandas
 import pandas as pd
 import numpy as np
