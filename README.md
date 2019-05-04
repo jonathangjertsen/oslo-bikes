@@ -17,3 +17,7 @@ Følgende verktøy finnes:
 pandas DataFrames
     * Det kreves at `pandas` er installert, typisk via en Anaconda-distribusjon
 * `bikes.ipynb` er en Jupyter Notebook jeg bruker til å kikke på dataene.
+
+Demo av plotting (kode kommer etter hvert):
+
+![Animasjon av bysyklenes tilgjengelighet](https://raw.githubusercontent.com/jonathangjertsen/oslo-bikes/master/demo.gif)
