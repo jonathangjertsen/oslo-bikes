@@ -1,6 +1,15 @@
+*.bak
 *.csv
 *.pyc
 *.txt
-
+*.shp
+*.prj
+*.shx
+*.cpg
+*.dbf
+*.png
+*.pickle
+*.mp4
+bld/
 .idea
 .ipynb_checkpoints
